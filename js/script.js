@@ -1,5 +1,5 @@
-let login = 'ABC';
-let password ='123';
+let login = 'Осипов';
+let password ='заборорру';
 
 function openWindow() {
   let inputLogin = document.getElementById('enter_login').value;
