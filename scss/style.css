@@ -128,6 +128,11 @@ section .container .title {
   font-size: 30px;
   text-transform: uppercase;
 }
+@media all and (max-width: 414px) {
+  section .container .title {
+    font-size: 20px;
+  }
+}
 
 .main-info .main-info__container .main-info__content {
   display: grid;
@@ -163,6 +168,17 @@ section .container .title {
 .main-info .main-info__container .main-info__content .main-info__content__about .main-info__content__about_settings .link-vaccine a {
   color: #6A0000;
 }
+@media all and (max-width: 414px) {
+  .main-info .main-info__container .main-info__content {
+    display: block;
+  }
+  .main-info .main-info__container .main-info__content .main-info__content__about {
+    margin-left: 0;
+  }
+  .main-info .main-info__container .main-info__content .main-info__content__about .main-info__content__about_name {
+    text-align: center;
+  }
+}
 
 .vaccine .vaccine__container .vaccine__content {
   width: 70%;
@@ -192,6 +208,20 @@ section .container .title {
 }
 .vaccine .vaccine__container .vaccine__content .vaccine__content__article ol {
   margin-left: 30px;
+}
+@media all and (max-width: 414px) {
+  .vaccine .vaccine__container .vaccine__content {
+    width: 100%;
+  }
+  .vaccine .vaccine__container .vaccine__content .vaccine__content__article .vaccine__content_title {
+    font-size: 34px;
+  }
+  .vaccine .vaccine__container .vaccine__content .vaccine__content__article .vaccine__content_title .descr {
+    font-size: 18px;
+  }
+  .vaccine .vaccine__container .vaccine__content .vaccine__content__article p, .vaccine .vaccine__container .vaccine__content .vaccine__content__article ol > li {
+    text-align: left;
+  }
 }
 
 .footer {
