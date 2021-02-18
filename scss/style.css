@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  background-color: #737373;
+}
+
+.wrapper {
+  position: relative;
+  background-image: url("img/wrapper_bg.png");
+  margin: auto;
+  max-width: 1920px;
+  font-family: "Roboto";
+}
+
+.wrapper__bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  background-color: #6A0000;
+  position: fixed;
+  width: 100%;
+}
+.header .header__container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__container .header__about {
+  display: flex;
+  align-items: center;
+}
+.header .header__container .header__about img {
+  max-width: 40px;
+}
+.header .header__container .header__about a {
+  margin-left: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+}
+.header .header__container .header__log-out {
+  color: #fff;
+  text-decoration: underline;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+section {
+  padding-top: 120px;
+}
+section .container {
+  width: 75%;
+}
+section .container .title {
+  margin-bottom: 100px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.main-info .main-info__container .main-info__content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-content: center;
+}
+.main-info .main-info__container .main-info__content .main-info__content__avatar {
+  width: 100%;
+}
+.main-info .main-info__container .main-info__content .main-info__content__about {
+  margin-left: 125px;
+}
+.main-info .main-info__container .main-info__content .main-info__content__about p {
+  margin-bottom: 30px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+}
+.main-info .main-info__container .main-info__content .main-info__content__about .main-info__content__about_name {
+  color: #fff;
+  font-size: 34px;
+  text-transform: uppercase;
+  line-height: 56px;
+}
+.main-info .main-info__container .main-info__content .main-info__content__about .main-info__content__about_settings .setting {
+  color: #6A0000;
+}
+.main-info .main-info__container .main-info__content .main-info__content__about .main-info__content__about_settings .link-vaccine {
+  text-decoration: underline;
+}
+.main-info .main-info__container .main-info__content .main-info__content__about .main-info__content__about_settings .link-vaccine a {
+  color: #6A0000;
+}
+
+.vaccine .vaccine__container .vaccine__content {
+  width: 70%;
+  margin: auto;
+}
+.vaccine .vaccine__container .vaccine__content .vaccine__content__article {
+  margin-bottom: 50px;
+}
+.vaccine .vaccine__container .vaccine__content .vaccine__content__article .vaccine__content_title {
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.vaccine .vaccine__container .vaccine__content .vaccine__content__article .vaccine__content_title .descr {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+}
+.vaccine .vaccine__container .vaccine__content .vaccine__content__article p, .vaccine .vaccine__container .vaccine__content .vaccine__content__article ol > li {
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: justify;
+}
+.vaccine .vaccine__container .vaccine__content .vaccine__content__article ol {
+  margin-left: 30px;
+}
+
+.footer {
+  background-color: #6A0000;
+  padding: 30px;
+}
+.footer p {
+  color: #fff;
+  text-align: center;
+}
+.footer p:first-child {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+}
