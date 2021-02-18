@@ -220,7 +220,7 @@ section .container .title {
     font-size: 18px;
   }
   .vaccine .vaccine__container .vaccine__content .vaccine__content__article p, .vaccine .vaccine__container .vaccine__content .vaccine__content__article ol > li {
-    text-align: left;
+    text-align: justify;
   }
 }
 
