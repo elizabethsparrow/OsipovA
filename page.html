@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sait's Name</title>
+  <!-- Fonts -->
+  <!-- Styles -->
+  <link rel="stylesheet" href="scss/style.css">
+  <!-- Scripts -->
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <img src="img/wrapper__bg.png" alt="" class="wrapper__bg">
+  <div class="wrapper">
+    <header class="header" id="header">
+      <div class="container header__container">
+        <div class="header__about">
+          <img src="img/Ellipse 1.png" alt="" class="avatar header__about__avatar">
+          <a href="">А. Осипов</a>
+        </div>
+        <a class="header__log-out" onclick="closeWindow()">Выход</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="main-info" id="main-info">
+        <div class="container main-info__container">
+          <div class="title main-info__title">
+            <h1>Личные данные</h1>
+          </div>
+          <div class="main-info__content">
+            <img src="img/Ellipse 2.png" alt="" class="main-info__content__avatar">
+            <div class="main-info__content__about">
+              <p class="main-info__content__about_name">Александр Васильевич <br> Осипов</p>
+              <p class="main-info__content__about_settings"><span class="setting">Должность:</span> Химический эксперт / создатель вируса и вакцины</p>
+              <p class="main-info__content__about_settings"><span class="setting">Задача:</span> создать вирус и <span class="link-vaccine"><a href="#vaccine">вакцину</a></span> для него</p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section class="vaccine" id="vaccine">
+        <div class="container vaccine__container">
+          <div class="title vaccine__title">
+            <h1>Вакцина</h1>
+          </div>
+          <div class="vaccine__content">
+            <div class="vaccine__content__article">
+              <h2 class="vaccine__content_title">H<sub>2</sub>O<sub>2</sub> <span class="descr">(перекись водорода)</span></h2>
+              <p><strong>Пероксид водорода</strong> (перекись водорода), H<sub>2</sub>O<sub>2</sub> — простейший представитель пероксидов.</p>
+              <p>Бесцветная жидкость с «металлическим» вкусом, неограниченно растворимая в воде, спирте и эфире. Концентрированные водные растворы взрывоопасны. Пероксид водорода является хорошим растворителем.</p>
+            </div>
+            <div class="vaccine__content__article">
+              <h2 class="vaccine__content_title">Химические свойства</h2>
+              <ol>
+                <li>Разложение: 2H<sub>2</sub>O<sub>2</sub> → 2H<sub>2</sub>O + O<sub>2</sub> (очень чистый пероксид водорода устойчив)</li>
+                <li>Пероксид водорода проявляет слабые кислотные свойства (К = 1,4×10−12), и поэтому диссоциирует по двум ступеням</li>
+                <li> С щелочами: Н<sub>2</sub>O<sub>2</sub> + 2NaOH → Na<sub>2</sub>O<sub>2</sub> + 2H<sub>2</sub>O <br>
+                  H<sub>2</sub>O<sub>2</sub> + Ba(OH)<sub>2</sub> → BaO<sub>2</sub>↓ + 2H<sub>2</sub>O</li>
+              </ol>
+            </div>
+            <div class="vaccine__content__article">
+              <h2 class="vaccine__content_title">Бактериальные свойства</h2>
+              <p>Перекись водорода обладает универсальным противомикробным действием. К ней чувствительны различные бактерии, вирусы, многие виды патогенных грибов. Вызывает гибель спор большинства спорогенных бактерий. Противомикробное действие Н<sub>2</sub>О<sub>2</sub> связано с ее высокой окислительной активностью. Выделяющийся при ее разложении микробными и тканевыми протеазами кислород окисляет сульфгидрильные и гидроксильные группы белков и липидов, вызывая гибель микробов</p>
+            </div>
+            <div class="vaccine__content__article">
+              <h2 class="vaccine__content_title">Получение</h2>
+              <p>Исторически первым промышленным методом синтеза пероксида водорода был электролиз серной кислоты или раствора сульфата аммония в серной кислоте, в ходе которого образуется пероксодисерная кислота, с последующим гидролизом последней до пероксида и серной кислоты.</p>
+              <p>С середины XX века персульфатный процесс синтеза пероксида водорода был вытеснен антрахиноновым процессом, разработанным компанией BASF в 1930 годы. В этом процессе формально идет окисление водорода кислородом воздуха с катализом алкилпроизводными антрахинона.</p>
+              <p>Пероксид водорода также может быть получен каталитическим окислением изопропилового спирта. При этом ценным побочным продуктом этой реакции является ацетон, однако в широких масштабах в промышленности этот метод в настоящее время не используется.</p>
+              <p>Концентрирование и очистку пероксида водорода проводят осторожной перегонкой.</p>
+            </div>
+            <div class="vaccine__content__article">
+              <h2 class="vaccine__content_title">Другие элементы утеряны...</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <p>Суперсекретно! Не распространять!</p>
+        <p>@zabor.orru</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
